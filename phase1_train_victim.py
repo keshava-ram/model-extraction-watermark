@@ -1,24 +1,3 @@
-"""
-PHASE 1 — Train the Victim Model
-=================================
-Model Extraction Attack & Watermark Defense Project
-
-What this script does:
-  1. Downloads CIFAR-10 (10-class image dataset, 32x32 color images)
-  2. Defines a small CNN
-  3. Trains it for a number of epochs, printing train/test accuracy each epoch
-  4. Saves the trained weights to victim_model.pt
-
-HOW TO RUN THIS (recommended: Google Colab, free GPU, nothing to install):
-  1. Go to https://colab.research.google.com -> New Notebook
-  2. Runtime -> Change runtime type -> select "GPU" (T4 is fine)
-  3. Paste this whole file into a cell and run it
-  4. After it finishes, victim_model.pt will appear in Colab's file panel (left sidebar)
-     -> right-click it -> Download, to keep a local copy
-
-If running locally instead: `pip install torch torchvision` first.
-"""
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
